@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1. Getting Started - Uploadcare Video Tutorial</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <!-- STEP 1. PASTE: -->
+
+    <!--
+    <script>
+      UPLOADCARE_AUTOSTORE = true;
+      UPLOADCARE_PUBLIC_KEY = "8049cefb6acb8441ffa0";
+    </script>
+    <script src="http://ucarecdn.com/widget/1.3.1/uploadcare/uploadcare-1.3.1.js"></script>
+    -->
+
+    <!-- END OF STEP 1 -->
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Uploadcare Tutorial</h1>
+                <h2>Your Example Page with Form</h2>
+                <p>This is an example demonstrating how to quickly integrate Uploadcare
+                into the file upload form on your website:</p>
+                <ul>
+                    <li>Sign up at <a href="https://uploadcare.com">Uploadcare.com</a> </li>
+                    <li>Create a project</li>
+                    <li>Add <code>UPLOADCARE_PUBLIC_KEY</code> JavaScript variable, with a
+                        public key of your project as a value</li>
+                    <li>
+                        In your form, replace the file input: <br />
+                        <code>&lt;input type="file"&gt;</code>
+                        <br />with hidden input having "uploadcare-uploader" class: <br />
+                        <code>&lt;input type="hidden" role="uploadcare-uploader" name="my_file"&gt;</code>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <strong>Form with a File</strong>
+                    </div>
+                    <div class="panel-body">
+                        <form action="http://example.com" method="post" role="form">
+
+                          <div class="form-group">
+                            <label for="id_name">Your Name</label>
+                            <input name="name" id="id_name" class="form-control" placeholder="Enter your name">
+                          </div>
+
+                          <div class="form-group">
+                            <label for="id_email">Your Email</label>
+                            <input name="email" type="email" class="form-control" id="id_email" placeholder="Email address">
+                          </div>
+
+                          <div class="form-group">
+                            <label for="id_file">Your file to upload</label>
+
+                            <!-- STEP 2. REPLACE: -->
+
+                            <input name="file" type="file" />
+                            <!-- <input name="file" type="hidden" role="uploadcare-uploader" /> -->
+
+                            <!-- END OF STEP 2 -->
+                            
+                            <p class="help-block">
+                                To use Uploadcare, replace the input above!
+                            </p>
+                          </div>
+
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" checked> I realize that file is transferred asynchronously!
+                            </label>
+                          </div>
+
+                          <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div> <!-- </panel> -->
+
+            </div> <!-- </col-md-8> -->
+        </div> <!-- </row> -->
+
+    </div> <!-- </container> -->
+
+    <footer>
+    <div class="containter">
+        <h5 class="text-center">&copy; Your Company</h5>
+    </div>
+    </footer>
+
+</body>
+</html>

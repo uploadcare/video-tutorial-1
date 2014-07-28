@@ -1,0 +1,36 @@
+1. Getting Started - Uploadcare Video Tutorial
+
+Script:
+
+Let's say you have a page with HTML form on your website,
+with two fields and a file input. And you want to replace
+the file input with the Uploadcare widget.
+
+This is how the page source looks like. In this example
+Twitter Bootstrap layout is used. And here is the
+file input we want to replace.
+
+First of all, you have to sign up at Uploadcare webste.
+Go to Uploadcare.com, choose your plan, enter email
+and password, and sign up for free. You can sign up
+using your Google or GitHub account as well.
+
+Now go to dashboard, and start a new project. The public
+key for the project is generated automatically. Click
+on "Widget" item in the menu, and scroll down to the "Integration"
+section. There are 3 code snippets there; we need two of them:
+the "script" tags to be placed in the head of HTML, and the widget
+code.
+
+Copy the first snippet, and paste it to your HTML page, just below
+other "script" tags. Then copy second snippet, and replace
+your file input tag with it.
+
+That's it! File input is now replaced with Uploadcare widget.
+Now drag and drop a file that you want to upload to the widget,
+and upload will start immediately. You can continue filling form
+data while the file is uploading. When you submit the form, a unique UUID of
+the uploaded file is sent to your server. If autostore is configured
+in the widget settings, which is default, the file will be placed directly
+to the CDN. You can use the UUID of the uploaded file to retrieve it
+from there.
