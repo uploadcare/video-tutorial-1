@@ -24,7 +24,8 @@ code.
 
 Copy the first snippet, and paste it to your HTML page, just below
 other "script" tags. Then copy second snippet, and replace
-your file input tag with it.
+your file input tag with it. Remember to specify correct "name"
+attribute.
 
 That's it! File input is now replaced with Uploadcare widget.
 Now drag and drop a file that you want to upload to the widget,
