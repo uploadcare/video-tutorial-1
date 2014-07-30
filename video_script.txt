@@ -59,22 +59,14 @@ Now choose the file that you want to upload and drop it to the widget.
 Upload will start immediately. You can continue filling form
 data while the file is still uploading.
 
-(1:55th second) +23sec:
+(1:55th second) +20sec:
 
-When you submit the form, a unique UUID of the uploaded file is sent
+When you submit the form, a UUID of the uploaded file is sent
 to your server as a part of HTTP POST request.
-If autostore option is configured in the widget settings,
+If autostore option is configured,
 the file will be placed directly to the Content Delivery Network.
 You can use the UUID to retrieve uploaded file from the CDN.
 
-(2:18th second) +13sec:
+(2:15th second)
 
-In this example downloading takes time, because the original file
-is large. In the next video I will show you how to crop and resize
-the file using URL-based API.
-
-(2:31th second)
-
-(pause)
-
-(2:32th second - end of the video)
+(2:19th second - end of video)
