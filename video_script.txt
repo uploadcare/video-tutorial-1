@@ -1,37 +1,80 @@
-1. Getting Started - Uploadcare Video Tutorial
-
 Script:
 
-Let's say you have a page with HTML form on your website,
-with two fields and a file input. And you want to replace
-the file input with the Uploadcare widget.
+
+Hi! Let's say you have an HTML page with a form,
+that contains a file input, and you want to replace
+this file input with the Uploadcare widget.
+
+(10th second), +8sec:
 
 This is how the page source looks like. In this example
-Twitter Bootstrap layout is used. And here is the
+Bootstrap layout is used. And here is the
 file input we want to replace.
 
-First of all, you have to sign up at Uploadcare webste.
-Go to Uploadcare.com, choose your plan, enter email
-and password, and sign up for free. You can sign up
-using your Google or GitHub account as well.
+(18th second), +20sec:
 
-Now go to dashboard, and start a new project. The public
-key for the project is generated automatically. Click
-on "Widget" item in the menu, and scroll down to the "Integration"
-section. There are 3 code snippets there; we need two of them:
-the "script" tags to be placed in the head of HTML, and the widget
-code.
+First of all, you have to register at Uploadcare webste.
+Go to Uploadcare dot com signup page, and choose your plan.
+All plans include free fourteen days trial period.
+Then enter your email address and password, and sign up for free.
 
-Copy the first snippet, and paste it to your HTML page, just below
-other "script" tags. Then copy second snippet, and replace
-your file input tag with it. Remember to specify correct "name"
-attribute.
+(38th second), +12sec:
 
-That's it! File input is now replaced with Uploadcare widget.
-Now drag and drop a file that you want to upload to the widget,
-and upload will start immediately. You can continue filling form
-data while the file is uploading. When you submit the form, a unique UUID of
-the uploaded file is sent to your server. If autostore is configured
-in the widget settings, which is default, the file will be placed directly
-to the CDN. You can use the UUID of the uploaded file to retrieve it
-from there.
+Now go to dashboard, and add a new project. Enter the project
+name and click "create". Public key for the project
+will be generated automatically.
+
+(50th second), +22sec:
+
+Click on "Widget" menu item, and scroll down to the "Integration"
+section. There are 3 code snippets there; we will need two of them.
+Copy the first snippet, and paste it to your HTML page,
+right below stylesheets and other "script" tags. This snippet
+contains Uploadcare widget settings and JavaScript library.
+
+(1:12th second)
+
+(2 sec pause)
+
+(1:14th second) +21sec:
+
+Then copy second snippet, and replace
+your file input with it. The widget is represented as
+a specially marked "hidden input" tag. Its value will be set to
+unique identifier of the file after upload is finished.
+Remember to specify correct "name" attribute,
+and save your changes.
+
+(1:35th second)
+
+(2 sec pause)
+
+(1:37th second) +5sec:
+
+That's it! File input is now replaced with the Uploadcare widget.
+
+(1:43th second) +12sec:
+
+Now choose the file that you want to upload and drop it to the widget.
+Upload will start immediately. You can continue filling form
+data while the file is still uploading.
+
+(1:55th second) +23sec:
+
+When you submit the form, a unique UUID of the uploaded file is sent
+to your server as a part of HTTP POST request.
+If autostore option is configured in the widget settings,
+the file will be placed directly to the Content Delivery Network.
+You can use the UUID to retrieve uploaded file from the CDN.
+
+(2:18th second) +13sec:
+
+In this example downloading takes time, because the original file
+is large. In the next video I will show you how to crop and resize
+the file using URL-based API.
+
+(2:31th second)
+
+(pause)
+
+(2:32th second - end of the video)
