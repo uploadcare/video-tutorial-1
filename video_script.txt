@@ -13,9 +13,9 @@ file input we want to replace.
 
 (18th second), +20sec:
 
-First of all, you have to register at Uploadcare webste.
+First of all, you have to create an Uploadcare account.
 Go to Uploadcare dot com signup page, and choose your plan.
-All plans include free fourteen days trial period.
+All plans include free 14 days trial period.
 Then enter your email address and password, and sign up for free.
 
 (38th second), +12sec:
@@ -51,7 +51,7 @@ and save your changes.
 
 (1:37th second) +5sec:
 
-That's it! File input is now replaced with the Uploadcare widget.
+That's it! File input is now replaced with Uploadcare widget.
 
 (1:43th second) +12sec:
 
