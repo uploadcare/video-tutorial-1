@@ -1,10 +1,10 @@
-Tutorial 1: Integrate Uploadcare widget in a few minutes
-========================================================
+Tutorial 1: Integrate Uploadcare widget
+=======================================
 
 This tutorial describes full front-end integration process
-for the base case. See the video:
-
-https://vimeo.com/103210116
+for the base case, which only takes a few minutes!
+    
+See the video: https://vimeo.com/103210116
 
 Emulating HTTP Server
 ---------------------
