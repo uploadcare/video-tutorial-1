@@ -5,38 +5,24 @@ Hi! Let's say you have an HTML page with a form,
 that contains a file input, and you want to replace
 this file input with the Uploadcare widget.
 
-(10th second), +8sec:
-
 This is how the page source looks like. In this example
 Bootstrap layout is used. And here is the
 file input we want to replace.
-
-(18th second), +20sec:
 
 First of all, you have to create an Uploadcare account.
 Go to Uploadcare dot com signup page, and choose your plan.
 All plans include free 14 days trial period.
 Then enter your email address and password, and sign up for free.
 
-(38th second), +12sec:
-
 Now go to dashboard, and add a new project. Enter the project
 name and click "create". Public key for the project
 will be generated automatically.
-
-(50th second), +22sec:
 
 Click on "Widget" menu item, and scroll down to the "Integration"
 section. There are 3 code snippets there; we will need two of them.
 Copy the first snippet, and paste it to your HTML page,
 right below stylesheets and other "script" tags. This snippet
 contains Uploadcare widget settings and JavaScript library.
-
-(1:12th second)
-
-(2 sec pause)
-
-(1:14th second) +21sec:
 
 Then copy second snippet, and replace
 your file input with it. The widget is represented as
@@ -45,31 +31,17 @@ unique identifier of the file after upload is finished.
 Remember to specify correct "name" attribute,
 and save your changes.
 
-(1:35th second)
-
-(2 sec pause)
-
-(1:37th second) +5sec:
-
 That's it! File input is now replaced with Uploadcare widget.
-
-(1:43th second) +12sec:
 
 Now choose the file that you want to upload and drop it to the widget.
 Upload will start immediately. You can continue filling form
 data while the file is still uploading.
-
-(1:55th second) +20sec:
 
 When you submit the form, a UUID of the uploaded file is sent
 to your server as a part of HTTP POST request.
 If autostore option is configured,
 the file will be placed directly to the Content Delivery Network.
 You can use the UUID to retrieve uploaded file from the CDN.
-
-(2:15th second)
-
-(2:19th second - end of video)
 
 Uploadcare works with any types of files, but it's especially
 good for images. In the next video I will show you how to
