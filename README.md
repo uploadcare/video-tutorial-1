@@ -6,10 +6,13 @@ for the base case. See the video:
 
 https://vimeo.com/103210116
 
+Emulating HTTP Server
+---------------------
+
 To run the Simple HTTP Server, go to the root directory of this project,
 and type:
 
-    python server.py
+    python server.py 2343
 
 Or just this:
 
@@ -18,6 +21,9 @@ Or just this:
 Then type in your browser address line:
 
 http://127.0.0.1:2343
+
+Workaround: without HTTP Server
+-------------------------------
 
 The Simple HTTP Server requires Python to be installed in your system
 (see http://python.org). If you don't have it, just replace the line in `index.html`:
