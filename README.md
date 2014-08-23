@@ -34,4 +34,4 @@ with:
 
     <form action="http://example.com" method="post" role="form">
 
-and open the `index.html` file.
+and open the `index.html` file in your browser.
