@@ -70,3 +70,7 @@ You can use the UUID to retrieve uploaded file from the CDN.
 (2:15th second)
 
 (2:19th second - end of video)
+
+Uploadcare works with any types of files, but it's especially
+good for images. In the next video I will show you how to
+crop and resize uploaded images using URL-based API.
