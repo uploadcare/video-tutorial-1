@@ -14,10 +14,6 @@ and type:
 
     python server.py 2343
 
-Or just this:
-
-    make
-
 Then type in your browser address line:
 
 http://127.0.0.1:2343
