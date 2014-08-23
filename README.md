@@ -39,6 +39,6 @@ Integration Steps
 2. Go to **Dashboard**: https://uploadcare.com/dashboard/
 3. Create a new **project** or select an existing one
 4. Click on **"Widget"** menu item, scroll down to the **"Integration"** section
-5. Copy the **first code snippet** into header of your HTML file (in this example it's `index.html`)
+5. Copy the **first code snippet** into header of your HTML page (in this example it's `index.html`)
 6. Copy the **second code snippet**, and replace your file input with it. Remember to specify correct **"name" attribute**.
 7. Reload your page!
