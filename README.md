@@ -35,3 +35,15 @@ with:
     <form action="http://example.com" method="post" role="form">
 
 and open the `index.html` file in your browser.
+
+Integration Steps
+-----------------
+
+1. Signup at https://uploadcare.com
+2. Go to Dashboard: https://uploadcare.com/dashboard/
+3. Create a new project (or select an existing one)
+4. Click on "Widget" menu item
+5. Scroll down to the "Integration" section
+6. Copy the first code snippet into header of your HTML file
+7. Copy the second snippet, and replace your file input with it. Remember to specify correct "name" attribute.
+8. Reload your page!
