@@ -44,6 +44,6 @@ Integration Steps
 3. Create a new project (or select an existing one)
 4. Click on "Widget" menu item
 5. Scroll down to the "Integration" section
-6. Copy the first code snippet into header of your HTML file
+6. Copy the first code snippet into header of your HTML file (in this example it's `index.html`)
 7. Copy the second snippet, and replace your file input with it. Remember to specify correct "name" attribute.
 8. Reload your page!
