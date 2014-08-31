@@ -6,8 +6,8 @@ for the base case, which only takes a few minutes!
     
 See the video: https://vimeo.com/103210116
 
-Emulating HTTP Server
----------------------
+Emulating HTTP Server (recommended)
+-----------------------------------
 
 To run the Simple HTTP Server, go to the root directory of this project,
 and type:
@@ -30,7 +30,8 @@ with:
 
     <form action="http://example.com" method="post" role="form">
 
-and open the `index.html` file in your browser.
+and open the `index.html` file in your browser. Note, that without emulating
+HTTP server certain features of the widget will not work correctly.
 
 Integration Steps
 -----------------
